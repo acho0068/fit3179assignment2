@@ -5,7 +5,7 @@
     "height": 400,
     "projection": {"type": "equalEarth"},
     "data": {
-      "url": "https://github.com/acho0068/fit3179assignment2/blob/main/js/ne_110m.json",
+      "url": "/js/ne_110m.json",
       "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
     },
     "transform": [
@@ -13,7 +13,7 @@
         "lookup": "properties.NAME",
         "from": {
           "data": {
-            "url": "https://github.com/acho0068/fit3179assignment2/blob/main/dataset/clean/total_medals_by_countries.csv"
+            "url": "/dataset/clean/total_medals_by_countries.csv"
           },
           "key": "Country",
           "fields": ["Total_Medals"]
@@ -34,3 +34,8 @@
       ]
     }
   }
+
+
+
+
+  
