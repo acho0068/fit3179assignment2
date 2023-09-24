@@ -29,8 +29,8 @@
         "scale": {"type": "log"}
       },
       "tooltip": [
-        {"field": "Country", "type": "nominal", "title": "Country"},
-        {"field": "Total_Medals", "type": "quantitative"}
+        {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+        {"field": "Total Medals", "type": "quantitative"}
       ]
     }
   }
