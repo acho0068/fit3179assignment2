@@ -10,7 +10,7 @@
     },
     "transform": [
       {
-        "lookup": "Country",
+        "lookup": "properties.NAME",
         "from": {
           "data": {
             "url": "https://github.com/acho0068/fit3179assignment2/blob/main/dataset/clean/total_medals_by_countries.csv"
