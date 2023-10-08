@@ -1,6 +1,18 @@
 #choropleth_map {
-    top:100px;
+    top:10px;
     bottom: 100px;
-    left: 100px;
+    left: 10px;
     right: 100px;
+}
+
+#bump_chart{
+    top:10px;
+    bottom: 100px;
+    left: 10px;
+    right: 100px;
+}
+
+.pure-g
+{
+    margin-bottom: 40px;
 }
