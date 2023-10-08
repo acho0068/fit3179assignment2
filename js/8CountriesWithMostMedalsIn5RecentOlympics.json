@@ -1,0 +1,285 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.1.0.json",
+  "title": {
+    "text": "Rank of Country in 5 Recent Olympics by Number of Medals",
+    "color": "navy",
+    "fontSize": 22,
+    "align": "center",
+    "anchor": "middle",
+    "dy": -1,
+    "baseline": "middle",
+    "subtitleColor": "navy",
+    "subtitleFontSize": 18,
+    "subtitlePadding": 5
+  },
+  "width": 400,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/acho0068/fit3179assignment2/main/dataset/clean/top8_in_recent_five_years.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "sort": [{"field": "Number of Medals", "order": "descending"}],
+      "window": [{"op": "rank", "as": "rank"}],
+      "groupby": ["Year"]
+    },
+    {
+      "lookup": "Country",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/BumpChart/flags.csv"
+        },
+        "key": "Country",
+        "fields": ["ImageURL"]
+      }
+    }, 
+    {
+      "filter": "country_selection == null || datum.Country == country_selection"
+    }
+  ],
+  "params":[
+   {
+    "name": "country_selection",
+    "bind":{
+      "input":"select",
+      "options":[
+        null,
+        "Australia",
+        "China",
+        "France",
+        "Germany",
+        "Italy",
+        "Japan",
+        "Russia",
+        "South Korea",
+        "United Kingdom",
+        "United States"
+      ],
+      "labels": [
+        "Show All", 
+        "Australia",
+        "China",
+        "France",
+        "Germany",
+        "Italy",
+        "Japan",
+        "Russia",
+        "South Korea",
+        "United Kingdom",
+        "United States"
+      ],
+      "name": "Country Selection: "
+    }
+   }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "sort": "ascending",
+      "title": "Year",
+      "axis": {
+        "grid": true,
+        "domain": false,
+        "ticks": true,
+        "offset": 20,
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "Rank",
+      "type": "ordinal",
+      "axis": {"labels":true,"grid": false, "domain": false, "offset": -10}
+    },
+     "color": {
+    "field": "Country",
+    "type": "nominal"
+    },
+    "tooltip": [
+      {"field": "Year", "title":"Olympic Year", "type": "nominal"},
+      {"field": "Country", "type": "nominal"},
+      {"field": "Number of Medals", "type": "quantitative"},
+      {"field": "Rank", "type": "ordinal"}
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "size": 4,
+        "point": {
+          "filled": false,
+          "fill": "white",
+          "size": 80,
+          "strokeWidth": 4
+        }
+      },
+      "encoding": {"color": {"field": "Country"}, "opacity": {"value": 0.8}}
+    },
+    {
+      "mark": {"type": "image", "width": 40, "height": 20, "tooltip": true},
+      "transform": [{"filter": "datum.Year != 2008 && datum.Year != 2012 && datum.Year != 2016"}],
+      "encoding": {"url": {"field": "ImageURL", "type": "nominal"}}
+    },
+    {
+      "mark": {
+        "type": "text",
+        "baseline": "middle",
+        "dx": 7,
+        "dy":-7,
+        "align": "left",
+        "fontSize": 10 ,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "Country", "type": "nominal"},
+        "color":{"value":"black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country']=='South Korea' && country_selection == null"
+          }, 
+          "value":0
+        }
+      }
+    },
+     {
+      "mark": {
+        "type": "text",
+        "baseline": "middle",
+        "dx": 5,
+        "dy":10,
+        "align": "left",
+        "fontSize": 10 ,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "Country", "type": "nominal"},
+        "color":{"value":"black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country']=='United Kingdom' && datum['Year'] == 2008"
+          }, 
+          "value":0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "baseline": "middle",
+        "dx": 5,
+        "dy":-60,
+        "align": "right",
+        "fontSize": 10 ,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"value":["United Kingdom", "was only in the", "top 8 from", "2008's Olympics"]},
+        "color":{"value":"black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country']=='United Kingdom' && datum['Year'] == 2008 && country_selection == 'United Kingdom'"
+          }, 
+          "value":0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "baseline": "middle",
+        "dx": -10,
+        "dy":-50,
+        "align": "right",
+        "fontSize": 10 ,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"value":["France", "did not made it", "to the top 8", "in 2016's", " Olympics"]},
+        "color":{"value":"black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country']=='France' && datum['Year'] == 2016 && country_selection == 'France'"
+          }, 
+          "value":0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "baseline": "middle",
+        "dx": 15,
+        "dy":-7,
+        "align": "left",
+        "fontSize": 10 ,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"value": ["Italy was not in the top 8", "in 2008, 2012 and 2016"," Olympics"]},
+        "color":{"value":"black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country']=='Italy' && datum['Year'] == 2020 && country_selection == 'Italy'"
+          }, 
+          "value":0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "baseline": "middle",
+        "dx": 15,
+        "dy":-7,
+        "align": "left",
+        "fontSize": 10 ,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"value": ["South Korea only made it", "to Top 8 in 2008's Olympics"]},
+        "color":{"value":"black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country']=='South Korea' && datum['Year'] == 2008 && country_selection == 'South Korea'"
+          }, 
+          "value":0
+        }
+      }
+    },
+    {
+      "mark": "text",
+      "encoding": {
+        "text": {"field": "Year", "title": "Olympic Year", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity":{"value":0}
+      }
+    },
+    {
+      "mark": "text",
+      "encoding": {
+        "text": {"field": "Country", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity":{"value":0}
+      }
+    },
+    {
+      "mark": "text",
+      "encoding": {
+        "text": {"field": "Number of Medals", "type": "quantitative"},
+        "color": {"value": "black"},
+        "opacity":{"value":0}
+      }
+    },
+    {
+      "mark": "text",
+      "encoding": {
+        "text": {"field": "Rank", "type": "ordinal"},
+        "color": {"value": "black"},
+        "opacity":{"value":0}
+      }
+    }
+  ],
+  "config": {"style": {"cell": {"stroke": "transparent"}}}
+}
