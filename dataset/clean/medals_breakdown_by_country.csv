@@ -1,6 +1,339 @@
-﻿Country,Gold,Silver,Bronze,Total
-United States,39,41,33,113
-China,38,32,18,88
-Japan,27,14,17,58
-Australia,17,7,22,46
-France,10,12,11,33
+﻿Country,Medals
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Silver
+Australia,Silver
+Australia,Silver
+Australia,Silver
+Australia,Silver
+Australia,Silver
+Australia,Silver
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+France,Gold
+France,Gold
+France,Gold
+France,Gold
+France,Gold
+France,Gold
+France,Gold
+France,Gold
+France,Gold
+France,Gold
+France,Silver
+France,Silver
+France,Silver
+France,Silver
+France,Silver
+France,Silver
+France,Silver
+France,Silver
+France,Silver
+France,Silver
+France,Silver
+France,Silver
+France,Bronze
+France,Bronze
+France,Bronze
+France,Bronze
+France,Bronze
+France,Bronze
+France,Bronze
+France,Bronze
+France,Bronze
+France,Bronze
+France,Bronze
