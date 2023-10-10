@@ -1,93 +1,93 @@
-﻿Discipline,Medal Won,Year,Discipline Total Medals,Normalised Win
+﻿Discipline,Medal_Won,Year,Discipline_Total_Medals,Normalised_Win
 3x3 Basketball,1,2020,6,0.167
-Archery,0,2020,15,0.000
-Artistic Gymnastics,6,2020,43,0.140
-Artistic Swimming,0,2020,6,0.000
+Archery,0,2020,15,0
+Artistic Gymnastics,6,2020,43,0.14
+Artistic Swimming,0,2020,6,0
 Athletics,26,2020,144,0.181
-Badminton,0,2020,15,0.000
+Badminton,0,2020,15,0
 Baseball,1,2020,3,0.333
 Basketball,2,2020,6,0.333
 Beach Volleyball,1,2020,6,0.167
 Boxing,4,2020,52,0.077
-Canoe Slalom,0,2020,12,0.000
+Canoe Slalom,0,2020,12,0
 Canoe Sprint,1,2020,36,0.028
 Cycling BMX Freestyle,1,2020,6,0.167
-Cycling BMX Racing,0,2020,6,0.000
-Cycling Mountain Bike,0,2020,6,0.000
-Cycling Road,0,2020,12,0.000
+Cycling BMX Racing,0,2020,6,0
+Cycling Mountain Bike,0,2020,6,0
+Cycling Road,0,2020,12,0
 Cycling Track,2,2020,36,0.056
 Diving,3,2020,24,0.125
 Equestrian,2,2020,18,0.111
 Fencing,2,2020,36,0.056
 Football,1,2020,6,0.167
 Golf,2,2020,6,0.333
-Handball,0,2020,6,0.000
-Hockey,0,2020,6,0.000
-Judo,0,2020,60,0.000
+Handball,0,2020,6,0
+Hockey,0,2020,6,0
+Judo,0,2020,60,0
 Karate,1,2020,32,0.031
-Marathon Swimming,0,2020,6,0.000
-Modern Pentathlon,0,2020,6,0.000
-Rhythmic Gymnastics,0,2020,6,0.000
-Rowing,0,2020,42,0.000
-Rugby Sevens,0,2020,6,0.000
-Sailing,0,2020,30,0.000
+Marathon Swimming,0,2020,6,0
+Modern Pentathlon,0,2020,6,0
+Rhythmic Gymnastics,0,2020,6,0
+Rowing,0,2020,42,0
+Rugby Sevens,0,2020,6,0
+Sailing,0,2020,30,0
 Shooting,6,2020,45,0.133
 Skateboarding,2,2020,12,0.167
 Softball,1,2020,3,0.333
 Sport Climbing,1,2020,6,0.167
 Surfing,1,2020,6,0.167
 Swimming,30,2020,105,0.286
-Table Tennis,0,2020,15,0.000
+Table Tennis,0,2020,15,0
 Taekwondo,1,2020,32,0.031
-Tennis,0,2020,15,0.000
-Trampolining,0,2020,6,0.000
+Tennis,0,2020,15,0
+Trampolining,0,2020,6,0
 Triathlon,2,2020,9,0.222
 Volleyball,1,2020,6,0.167
 Water Polo,1,2020,6,0.167
 Weightlifting,2,2020,42,0.048
 Wrestling,9,2020,72,0.125
-3x3 Basketball,0,2016,0,0.000
+3x3 Basketball,0,2016,0,0
 Archery,2,2016,12,0.167
 Artistic Gymnastics,12,2016,42,0.286
-Artistic Swimming,0,2016,6,0.000
+Artistic Swimming,0,2016,6,0
 Athletics,32,2016,141,0.227
-Badminton,0,2016,15,0.000
-Baseball,0,2016,0,0.000
+Badminton,0,2016,15,0
+Baseball,0,2016,0,0
 Basketball,2,2016,6,0.333
 Beach Volleyball,1,2016,6,0.167
 Boxing,3,2016,51,0.059
-Canoe Slalom,0,2016,12,0.000
-Canoe Sprint,0,2016,37,0.000
-Cycling BMX Freestyle,0,2016,0,0.000
+Canoe Slalom,0,2016,12,0
+Canoe Sprint,0,2016,37,0
+Cycling BMX Freestyle,0,2016,0,0
 Cycling BMX Racing,2,2016,6,0.333
-Cycling Mountain Bike,0,2016,6,0.000
+Cycling Mountain Bike,0,2016,6,0
 Cycling Road,1,2016,12,0.083
 Cycling Track,2,2016,30,0.067
 Diving,3,2016,24,0.125
 Equestrian,3,2016,18,0.167
 Fencing,4,2016,30,0.133
-Football,0,2016,6,0.000
+Football,0,2016,6,0
 Golf,1,2016,6,0.167
-Handball,0,2016,6,0.000
-Hockey,0,2016,6,0.000
+Handball,0,2016,6,0
+Hockey,0,2016,6,0
 Judo,2,2016,56,0.036
-Karate,0,2016,0,0.000
-Marathon Swimming,0,2016,6,0.000
-Modern Pentathlon,0,2016,6,0.000
-Rhythmic Gymnastics,0,2016,6,0.000
+Karate,0,2016,0,0
+Marathon Swimming,0,2016,6,0
+Modern Pentathlon,0,2016,6,0
+Rhythmic Gymnastics,0,2016,6,0
 Rowing,2,2016,42,0.048
-Rugby Sevens,0,2016,6,0.000
+Rugby Sevens,0,2016,6,0
 Sailing,1,2016,30,0.033
 Shooting,3,2016,45,0.067
-Skateboarding,0,2016,0,0.000
-Softball,0,2016,0,0.000
-Sport Climbing,0,2016,0,0.000
-Surfing,0,2016,0,0.000
+Skateboarding,0,2016,0,0
+Softball,0,2016,0,0
+Sport Climbing,0,2016,0,0
+Surfing,0,2016,0,0
 Swimming,33,2016,98,0.337
-Table Tennis,0,2016,12,0.000
+Table Tennis,0,2016,12,0
 Taekwondo,1,2016,32,0.031
-Tennis,3,2016,15,0.200
-Trampolining,0,2016,6,0.000
+Tennis,3,2016,15,0.2
+Trampolining,0,2016,6,0
 Triathlon,1,2016,6,0.167
 Volleyball,2,2016,6,0.333
 Water Polo,1,2016,6,0.167
