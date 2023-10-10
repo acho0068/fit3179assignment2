@@ -21,6 +21,11 @@
     <div id="bump_chart"></div>
   </div>
 
+  <div class="pure-g">
+    <h1> Graph 3: </h1>
+    <div id="iso_chart"></div>
+  </div>
+
 </div>
 
  
@@ -31,6 +36,10 @@
 
     var bumpChart ="js/8CountriesWithMostMedalsIn5RecentOlympics.json";
     vegaEmbed('#bump_chart', bumpChart).then(function(result) {
+    }).catch(console.error);
+
+    var isoChart = "js/medalsBreakdownForChosenCountries.json";
+    vegaEmbed('#iso_chart', isoChart).then(function (result) {
     }).catch(console.error);
   </script>
 
