@@ -1,0 +1,31 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "config": {"view": {"stroke": ""}},
+    "width": 400,
+    "height": 120,
+    "data": {
+      "url": "https://raw.githubusercontent.com/acho0068/fit3179assignment2/main/dataset/clean/medals_breakdown_by_country.json",
+      "format": {"type": "json"}
+    },
+    "transform": [
+      {
+      "calculate": "{'Gold': '🥇', 'Silver': '🥈', 'Bronze': '🥉'}[datum.Medals]",
+      "as": "emoji"
+    },
+    {"window": [{"op": "rank", "as": "rank"}], "groupby": ["Country", "Medals"]}
+  ],
+    "mark": {"type": "text", "baseline": "middle"},
+    "encoding": {
+      "x": {"field": "rank", "type": "ordinal", "axis":null},
+      "y": {"field": "Medals", "type": "nominal", "axis": null, "sort": null},
+      "row": {"field": "Country", "sort":null},
+      "text": {"field": "emoji", "type": "nominal"},
+      "size": {"value": 30},
+      "tooltip": [
+      {"field": "Country", "title": "Country"},
+      {"field": "Medals", "title": "Medals"},
+      {"field": "Total", "title": "Total Medals"}
+      ]
+    }
+}
+  
