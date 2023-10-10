@@ -1,0 +1,660 @@
+[
+ {
+   "Discipline": "3x3 Basketball",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Archery",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 15,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Artistic Gymnastics",
+   "Medal Won": 6,
+   "Year": 2020,
+   "Discipline Total Medals": 43,
+   "Normalised Win": 0.14
+ },
+ {
+   "Discipline": "Artistic Swimming",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Athletics",
+   "Medal Won": 26,
+   "Year": 2020,
+   "Discipline Total Medals": 144,
+   "Normalised Win": 0.181
+ },
+ {
+   "Discipline": "Badminton",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 15,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Baseball",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 3,
+   "Normalised Win": 0.333
+ },
+ {
+   "Discipline": "Basketball",
+   "Medal Won": 2,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.333
+ },
+ {
+   "Discipline": "Beach Volleyball",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Boxing",
+   "Medal Won": 4,
+   "Year": 2020,
+   "Discipline Total Medals": 52,
+   "Normalised Win": 0.077
+ },
+ {
+   "Discipline": "Canoe Slalom",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 12,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Canoe Sprint",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 36,
+   "Normalised Win": 0.028
+ },
+ {
+   "Discipline": "Cycling BMX Freestyle",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Cycling BMX Racing",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Cycling Mountain Bike",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Cycling Road",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 12,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Cycling Track",
+   "Medal Won": 2,
+   "Year": 2020,
+   "Discipline Total Medals": 36,
+   "Normalised Win": 0.056
+ },
+ {
+   "Discipline": "Diving",
+   "Medal Won": 3,
+   "Year": 2020,
+   "Discipline Total Medals": 24,
+   "Normalised Win": 0.125
+ },
+ {
+   "Discipline": "Equestrian",
+   "Medal Won": 2,
+   "Year": 2020,
+   "Discipline Total Medals": 18,
+   "Normalised Win": 0.111
+ },
+ {
+   "Discipline": "Fencing",
+   "Medal Won": 2,
+   "Year": 2020,
+   "Discipline Total Medals": 36,
+   "Normalised Win": 0.056
+ },
+ {
+   "Discipline": "Football",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Golf",
+   "Medal Won": 2,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.333
+ },
+ {
+   "Discipline": "Handball",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Hockey",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Judo",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 60,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Karate",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 32,
+   "Normalised Win": 0.031
+ },
+ {
+   "Discipline": "Marathon Swimming",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Modern Pentathlon",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Rhythmic Gymnastics",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Rowing",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 42,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Rugby Sevens",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Sailing",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 30,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Shooting",
+   "Medal Won": 6,
+   "Year": 2020,
+   "Discipline Total Medals": 45,
+   "Normalised Win": 0.133
+ },
+ {
+   "Discipline": "Skateboarding",
+   "Medal Won": 2,
+   "Year": 2020,
+   "Discipline Total Medals": 12,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Softball",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 3,
+   "Normalised Win": 0.333
+ },
+ {
+   "Discipline": "Sport Climbing",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Surfing",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Swimming",
+   "Medal Won": 30,
+   "Year": 2020,
+   "Discipline Total Medals": 105,
+   "Normalised Win": 0.286
+ },
+ {
+   "Discipline": "Table Tennis",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 15,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Taekwondo",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 32,
+   "Normalised Win": 0.031
+ },
+ {
+   "Discipline": "Tennis",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 15,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Trampolining",
+   "Medal Won": 0,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Triathlon",
+   "Medal Won": 2,
+   "Year": 2020,
+   "Discipline Total Medals": 9,
+   "Normalised Win": 0.222
+ },
+ {
+   "Discipline": "Volleyball",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Water Polo",
+   "Medal Won": 1,
+   "Year": 2020,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Weightlifting",
+   "Medal Won": 2,
+   "Year": 2020,
+   "Discipline Total Medals": 42,
+   "Normalised Win": 0.048
+ },
+ {
+   "Discipline": "Wrestling",
+   "Medal Won": 9,
+   "Year": 2020,
+   "Discipline Total Medals": 72,
+   "Normalised Win": 0.125
+ },
+ {
+   "Discipline": "3x3 Basketball",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 0,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Archery",
+   "Medal Won": 2,
+   "Year": 2016,
+   "Discipline Total Medals": 12,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Artistic Gymnastics",
+   "Medal Won": 12,
+   "Year": 2016,
+   "Discipline Total Medals": 42,
+   "Normalised Win": 0.286
+ },
+ {
+   "Discipline": "Artistic Swimming",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Athletics",
+   "Medal Won": 32,
+   "Year": 2016,
+   "Discipline Total Medals": 141,
+   "Normalised Win": 0.227
+ },
+ {
+   "Discipline": "Badminton",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 15,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Baseball",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 0,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Basketball",
+   "Medal Won": 2,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.333
+ },
+ {
+   "Discipline": "Beach Volleyball",
+   "Medal Won": 1,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Boxing",
+   "Medal Won": 3,
+   "Year": 2016,
+   "Discipline Total Medals": 51,
+   "Normalised Win": 0.059
+ },
+ {
+   "Discipline": "Canoe Slalom",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 12,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Canoe Sprint",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 37,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Cycling BMX Freestyle",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 0,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Cycling BMX Racing",
+   "Medal Won": 2,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.333
+ },
+ {
+   "Discipline": "Cycling Mountain Bike",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Cycling Road",
+   "Medal Won": 1,
+   "Year": 2016,
+   "Discipline Total Medals": 12,
+   "Normalised Win": 0.083
+ },
+ {
+   "Discipline": "Cycling Track",
+   "Medal Won": 2,
+   "Year": 2016,
+   "Discipline Total Medals": 30,
+   "Normalised Win": 0.067
+ },
+ {
+   "Discipline": "Diving",
+   "Medal Won": 3,
+   "Year": 2016,
+   "Discipline Total Medals": 24,
+   "Normalised Win": 0.125
+ },
+ {
+   "Discipline": "Equestrian",
+   "Medal Won": 3,
+   "Year": 2016,
+   "Discipline Total Medals": 18,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Fencing",
+   "Medal Won": 4,
+   "Year": 2016,
+   "Discipline Total Medals": 30,
+   "Normalised Win": 0.133
+ },
+ {
+   "Discipline": "Football",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Golf",
+   "Medal Won": 1,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Handball",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Hockey",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Judo",
+   "Medal Won": 2,
+   "Year": 2016,
+   "Discipline Total Medals": 56,
+   "Normalised Win": 0.036
+ },
+ {
+   "Discipline": "Karate",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 0,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Marathon Swimming",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Modern Pentathlon",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Rhythmic Gymnastics",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Rowing",
+   "Medal Won": 2,
+   "Year": 2016,
+   "Discipline Total Medals": 42,
+   "Normalised Win": 0.048
+ },
+ {
+   "Discipline": "Rugby Sevens",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Sailing",
+   "Medal Won": 1,
+   "Year": 2016,
+   "Discipline Total Medals": 30,
+   "Normalised Win": 0.033
+ },
+ {
+   "Discipline": "Shooting",
+   "Medal Won": 3,
+   "Year": 2016,
+   "Discipline Total Medals": 45,
+   "Normalised Win": 0.067
+ },
+ {
+   "Discipline": "Skateboarding",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 0,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Softball",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 0,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Sport Climbing",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 0,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Surfing",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 0,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Swimming",
+   "Medal Won": 33,
+   "Year": 2016,
+   "Discipline Total Medals": 98,
+   "Normalised Win": 0.337
+ },
+ {
+   "Discipline": "Table Tennis",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 12,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Taekwondo",
+   "Medal Won": 1,
+   "Year": 2016,
+   "Discipline Total Medals": 32,
+   "Normalised Win": 0.031
+ },
+ {
+   "Discipline": "Tennis",
+   "Medal Won": 3,
+   "Year": 2016,
+   "Discipline Total Medals": 15,
+   "Normalised Win": 0.2
+ },
+ {
+   "Discipline": "Trampolining",
+   "Medal Won": 0,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0
+ },
+ {
+   "Discipline": "Triathlon",
+   "Medal Won": 1,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Volleyball",
+   "Medal Won": 2,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.333
+ },
+ {
+   "Discipline": "Water Polo",
+   "Medal Won": 1,
+   "Year": 2016,
+   "Discipline Total Medals": 6,
+   "Normalised Win": 0.167
+ },
+ {
+   "Discipline": "Weightlifting",
+   "Medal Won": 1,
+   "Year": 2016,
+   "Discipline Total Medals": 45,
+   "Normalised Win": 0.022
+ },
+ {
+   "Discipline": "Wrestling",
+   "Medal Won": 3,
+   "Year": 2016,
+   "Discipline Total Medals": 72,
+   "Normalised Win": 0.042
+ }
+]
