@@ -1,0 +1,212 @@
+[
+ {
+   "Year": 2020,
+   "Sports_Type": "Archery",
+   "Medal_Won": 0,
+   "Sports_Total_Medals": 15,
+   "Normalised_Win": 0
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Gymnastics",
+   "Medal_Won": 11,
+   "Sports_Total_Medals": 55,
+   "Normalised_Win": 0.2
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Water Sports",
+   "Medal_Won": 28,
+   "Sports_Total_Medals": 273,
+   "Normalised_Win": 0.103
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Athletics",
+   "Medal_Won": 5,
+   "Sports_Total_Medals": 144,
+   "Normalised_Win": 0.035
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Racket Sports",
+   "Medal_Won": 13,
+   "Sports_Total_Medals": 45,
+   "Normalised_Win": 0.289
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Ball Sports",
+   "Medal_Won": 1,
+   "Sports_Total_Medals": 54,
+   "Normalised_Win": 0.019
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Combat Sports",
+   "Medal_Won": 10,
+   "Sports_Total_Medals": 284,
+   "Normalised_Win": 0.035
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Cycling Sports",
+   "Medal_Won": 1,
+   "Sports_Total_Medals": 66,
+   "Normalised_Win": 0.015
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Equestrian",
+   "Medal_Won": 0,
+   "Sports_Total_Medals": 18,
+   "Normalised_Win": 0
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Golf",
+   "Medal_Won": 0,
+   "Sports_Total_Medals": 6,
+   "Normalised_Win": 0
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Multi-Sports",
+   "Medal_Won": 0,
+   "Sports_Total_Medals": 15,
+   "Normalised_Win": 0
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Shooting Sports",
+   "Medal_Won": 11,
+   "Sports_Total_Medals": 45,
+   "Normalised_Win": 0.244
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Action Sports",
+   "Medal_Won": 0,
+   "Sports_Total_Medals": 12,
+   "Normalised_Win": 0
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Climbing Sports",
+   "Medal_Won": 0,
+   "Sports_Total_Medals": 6,
+   "Normalised_Win": 0
+ },
+ {
+   "Year": 2020,
+   "Sports_Type": "Weightlifting",
+   "Medal_Won": 8,
+   "Sports_Total_Medals": 42,
+   "Normalised_Win": 0.19
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Archery",
+   "Medal_Won": 0,
+   "Sports_Total_Medals": 12,
+   "Normalised_Win": 0
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Gymnastics",
+   "Medal_Won": 5,
+   "Sports_Total_Medals": 54,
+   "Normalised_Win": 0.093
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Water Sports",
+   "Medal_Won": 21,
+   "Sports_Total_Medals": 261,
+   "Normalised_Win": 0.08
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Athletics",
+   "Medal_Won": 6,
+   "Sports_Total_Medals": 141,
+   "Normalised_Win": 0.043
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Racket Sports",
+   "Medal_Won": 9,
+   "Sports_Total_Medals": 42,
+   "Normalised_Win": 0.214
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Ball Sports",
+   "Medal_Won": 1,
+   "Sports_Total_Medals": 42,
+   "Normalised_Win": 0.024
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Combat Sports",
+   "Medal_Won": 12,
+   "Sports_Total_Medals": 241,
+   "Normalised_Win": 0.05
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Cycling Sports",
+   "Medal_Won": 1,
+   "Sports_Total_Medals": 54,
+   "Normalised_Win": 0.019
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Equestrian",
+   "Medal_Won": 0,
+   "Sports_Total_Medals": 18,
+   "Normalised_Win": 0
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Golf",
+   "Medal_Won": 1,
+   "Sports_Total_Medals": 6,
+   "Normalised_Win": 0.167
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Multi-Sports",
+   "Medal_Won": 0,
+   "Sports_Total_Medals": 12,
+   "Normalised_Win": 0
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Shooting Sports",
+   "Medal_Won": 7,
+   "Sports_Total_Medals": 45,
+   "Normalised_Win": 0.156
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Action Sports",
+   "Medal_Won": 0,
+   "Sports_Total_Medals": 0,
+   "Normalised_Win": 0
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Climbing Sports",
+   "Medal_Won": 0,
+   "Sports_Total_Medals": 0,
+   "Normalised_Win": 0
+ },
+ {
+   "Year": 2016,
+   "Sports_Type": "Weightlifting",
+   "Medal_Won": 7,
+   "Sports_Total_Medals": 45,
+   "Normalised_Win": 0.156
+ }
+]
