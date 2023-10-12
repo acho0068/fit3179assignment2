@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "config": {"view": {"stroke": ""}},
-    "width": 400,
-    "height": 120,
+    "width": 250,
+  "height": 100,
     "data": {
       "url": "https://raw.githubusercontent.com/acho0068/fit3179assignment2/main/dataset/clean/medals_breakdown_by_country.json",
       "format": {"type": "json"}
