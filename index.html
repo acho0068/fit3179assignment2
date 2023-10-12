@@ -1,47 +1,156 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.8"></script>
 
-  <link rel="stylesheet" type="text/css"  href="css/styles.css" media="all">
+  <!--Google Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Luckiest+Guy&family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 </head>
 
 <body>
   <div class="page">
 
-  <div class="pure-g">
-    <h1> Graph 1: </h1>
-    <div id="choropleth_map"></div>
+    <!-- this is the title on the page-->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div class ="img-container"> 
+          <img src="img/olympics_ring.png" alt="Image of Olympics Logo">
+          <h1>2020 Tokyo Olympics at a Glance</h1>
+          <img src="img/olympics_ring.png" alt="Image of Olympics Logo"">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div id="choropleth_map"></div>
+      </div>
+
+      <div class="pure-u-1-2">
+        <div class="description description-right">
+          <h2>Total Medals by Countries</h2>
+          <p>As seen in the map above, countries are highlighted in different colour to project 
+            the number of medals the country has won in the 2020 Tokyo Olympics games. 
+          The scale used to show the number of medals are broke down into 6 shades, with the darkest representing 
+        countries that has won more than 100 medals.   </p>
+        </div>
+      </div>
+    </div>
+
+    <table style="width: 100%;">
+      <tr>
+        <td>
+          <h2>Top 8 Countries in the 5 Recent Olympics</h2>
+          <p> As seen in the chart on the right, United Kingdom was only in the top 8 from 2008 Olympics onwards. 
+            As for South Korea, the country has only made it to the top 8 in the 2008 Olympics and has not make it to the list since then. </p>
+        </td>
+        <td>
+          <div id="bump_chart"></div>
+        </td>
+      </tr>
+    </table>
+
+    <br>
+
+    <!-- <table style="width: 100%;">
+      <tr>
+        <td>
+          <div id="iso_chart"></div>
+        </td>
+        <td>
+          <h2>Medals Breakdown of 5 Chosen Countries</h2>
+          <p> text highlighting the main/interesiting findings. </p>
+        </td>
+      </tr>
+    </table>
+
+    <br> -->
+
+    <table style="width:100%">
+      <tr>
+        <td>
+          <div class="pure-g">
+            <h2> Graph 4: </h2>
+            <div id="us_chart"></div>
+          </div>
+        </td>
+        <td>
+          <div class="pure-g">
+            <h2> Graph 5: </h2>
+            <div id="china_chart"></div>
+          </div>
+        </td>
+        </tr>
+        <tr>
+        <td>
+          <div class="pure-g">
+            <h2> Graph 6: </h2>
+            <div id="france_chart"></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="pure-g">
+            <h2> Graph 7: </h2>
+            <div id="japan_chart"></div>
+          </div>
+        </td>
+        <td>
+          <div class="pure-g">
+            <h2> Graph 8: </h2>
+            <div id="aus_chart"></div>
+          </div>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
   </div>
 
-  <div class="pure-g">
-    <h1> Graph 2: </h1>
-    <div id="bump_chart"></div>
-  </div>
 
-  <div class="pure-g">
-    <h1> Graph 3: </h1>
-    <div id="iso_chart"></div>
-  </div>
-
-</div>
-
- 
   <script type="text/javascript">
-    var map ="js/totalMedalsByCountry.json";
-    vegaEmbed('#choropleth_map', map).then(function(result) {
+    var map = "js/totalMedalsByCountry.json";
+    vegaEmbed('#choropleth_map', map).then(function (result) {
     }).catch(console.error);
 
-    var bumpChart ="js/8CountriesWithMostMedalsIn5RecentOlympics.json";
-    vegaEmbed('#bump_chart', bumpChart).then(function(result) {
+    var bumpChart = "js/8CountriesWithMostMedalsIn5RecentOlympics.json";
+    vegaEmbed('#bump_chart', bumpChart).then(function (result) {
     }).catch(console.error);
 
     var isoChart = "js/medalsBreakdownForChosenCountries.json";
     vegaEmbed('#iso_chart', isoChart).then(function (result) {
     }).catch(console.error);
+
+    var usChart = "js/usMedalsBreakdown.json";
+    vegaEmbed('#us_chart', usChart).then(function (result) {
+    }).catch(console.error);
+
+    var chinaChart = "js/chinaMedalsBreakdown.json";
+    vegaEmbed('#china_chart', chinaChart).then(function (result) {
+    }).catch(console.error);
+
+    var franceChart = "js/franceMedalsBreakdown.json";
+    vegaEmbed('#france_chart', franceChart).then(function (result) {
+    }).catch(console.error);
+
+    var japanChart = "js/japanMedalsBreakdown.json";
+    vegaEmbed('#japan_chart', japanChart).then(function (result) {
+    }).catch(console.error);
+
+    var ausChart = "js/ausMedalsBreakdown.json";
+    vegaEmbed('#aus_chart', ausChart).then(function (result) {
+    }).catch(console.error);
   </script>
 
+
 </body>
+
 </html>
