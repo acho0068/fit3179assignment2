@@ -1,25 +1,519 @@
-﻿Country,Medals,Count,Count_Start,Count_End
-United States,Gold,39,0,39
-United States,Silver,41,39,80
-United States,Bronze,33,80,113
-China,Gold,38,0,38
-China,Silver,32,38,70
-China,Bronze,18,70,18
-Russia,Gold,20,0,20
-Russia,Silver,28,20,48
-Russia,Bronze,23,48,71
-United Kingdom,Gold,22,0,22
-United Kingdom,Silver,21,22,43
-United Kingdom,Bronze,22,43,65
-Japan,Gold,27,0,27
-Japan,Silver,14,27,41
-Japan,Bronze,17,41,58
-Australia,Gold,17,0,17
-Australia,Silver,7,17,24
-Australia,Bronze,22,24,46
-Italy,Gold,10,0,10
-Italy,Silver,10,10,20
-Italy,Bronze,20,20,40
-Germany,Gold,10,0,10
-Germany,Silver,11,10,21
-Germany,Bronze,16,21,37
+﻿Country,Medals
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Gold
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Silver
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+United States,Bronze
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Gold
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Silver
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+China,Bronze
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Gold
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Silver
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+Russia,Bronze
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Gold
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Silver
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+United Kingdom,Bronze
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Gold
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Silver
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Japan,Bronze
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Gold
+Australia,Silver
+Australia,Silver
+Australia,Silver
+Australia,Silver
+Australia,Silver
+Australia,Silver
+Australia,Silver
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Australia,Bronze
+Italy,Gold
+Italy,Gold
+Italy,Gold
+Italy,Gold
+Italy,Gold
+Italy,Gold
+Italy,Gold
+Italy,Gold
+Italy,Gold
+Italy,Gold
+Italy,Silver
+Italy,Silver
+Italy,Silver
+Italy,Silver
+Italy,Silver
+Italy,Silver
+Italy,Silver
+Italy,Silver
+Italy,Silver
+Italy,Silver
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Italy,Bronze
+Germany,Gold
+Germany,Gold
+Germany,Gold
+Germany,Gold
+Germany,Gold
+Germany,Gold
+Germany,Gold
+Germany,Gold
+Germany,Gold
+Germany,Gold
+Germany,Silver
+Germany,Silver
+Germany,Silver
+Germany,Silver
+Germany,Silver
+Germany,Silver
+Germany,Silver
+Germany,Silver
+Germany,Silver
+Germany,Silver
+Germany,Silver
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
+Germany,Bronze
