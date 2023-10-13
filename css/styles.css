@@ -145,6 +145,7 @@ p{
 #button-pic{
     align-items: center;
     padding-left: 70px;
+    padding-right: 70px;
     width:175px;
     height:100px;
 }
@@ -152,7 +153,6 @@ p{
 #button-text{
     text-align: justify;
     margin-top: -20px;
-    width: 400px;
     padding-left: 10px;
 }
 
