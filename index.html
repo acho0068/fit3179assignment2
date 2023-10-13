@@ -7,49 +7,56 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.8"></script>
 
   <!--Google Font-->
-  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Luckiest+Guy&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 </head>
 
 <body>
-  <div class="page">
+  <div class="page" style="background-color: #ffe4c4;">
 
     <!-- this is the title on the page-->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <div class ="img-container"> 
-          <img src="https://github.com/acho0068/fit3179assignment2/blob/main/img/olympics_ring.png?raw=true" alt="Image of Olympics Logo">
-          <h1>2020 Tokyo Olympics at a Glance</h1>
-          <img src="https://github.com/acho0068/fit3179assignment2/blob/main/img/olympics_ring.png?raw=true" alt="Image of Olympics Logo"">
+        <div class="img-container">
+          <img src="img/olympics_ring.png" alt="Image of Olympics Logo">
+          <h1>2020 TOKYO OLYMPICS AT A GLANCE</h1>
+          <img src="img/olympics_ring.png" alt="Image of Olympics Logo"">
         </div>
       </div>
     </div>
 
-
-    <div class="pure-g">
-      <div class="pure-u-1-2">
-        <div id="choropleth_map"></div>
-      </div>
-
-      <div class="pure-u-1-2">
-        <div class="description description-right">
-          <h2>Total Medals by Countries</h2>
-          <p>As seen in the map above, countries are highlighted in different colour to project 
-            the number of medals the country has won in the 2020 Tokyo Olympics games. 
-          The scale used to show the number of medals are broke down into 6 shades, with the darkest representing 
-        countries that has won more than 100 medals.   </p>
-        </div>
-      </div>
+    <div class=" pure-g">
+      <h3>Total Medals by Country</h3>
+      <p>As seen in the map below, countries are highlighted in different shade of red to project
+        the number of medals the country has won in the 2020 Tokyo Olympics.
+        The scale used to show the number of medals has the <b style="color:#4A0905">darkest</b>  shade representing
+        countries that has won the most medals. <br>
+        <br> 
+        The United States of America is coloured with the <b style="color: #4A0905;">darkest</b>  shade of red indicating that the country has won the most medals 
+        in the Olympics game. On the other hand, countries like Morocco, Saudi Arabia and more has the <b style="color:#F0282D">lightest</b> shade of red representing
+        that the countries have won 1 medal.Countries that are shaded with <b>grey</b> indicates that either the country did not participate 
+        in 2020 Tokyo Olympics or the countries did not win any medals. 
+      </p>
+      <div id="choropleth_map"></div>
     </div>
 
     <table style="width: 100%;">
       <tr>
         <td>
-          <h2>Top 8 Countries in the 5 Recent Olympics</h2>
-          <p> As seen in the chart on the right, United Kingdom was only in the top 8 from 2008 Olympics onwards. 
-            As for South Korea, the country has only made it to the top 8 in the 2008 Olympics and has not make it to the list since then. </p>
+          <h3>Top 8 Countries in the 5 Recent Olympics</h3>
+            <p> United States has always been in the first place, winning <b>over 100</b> pieces of medals for 5 
+              Olympics consecutively. <br>
+              <br>
+              United Kingdom was not in the top 8 in 2004's Olympics but it has made it to the top 8 from 2008's Olympics onwards. 
+              Since then, the country has kept its place in the <b>top 4</b>. <br>
+              <br>
+              South Korea has only made it to the <b>top 8 once</b> in the past 5 Olympics, which was the 8th place in 2008's Olympics. <br>
+              <br>
+              Also worth mentioning, Italy only made it to the top 8 in 2004 and 2020's Olympics. The country made its <b>comeback</b> to the top 8
+              in 2020 Tokyo Olympics by ranking 7th on the list. 
+            </p>
         </td>
         <td>
           <div id="bump_chart"></div>
@@ -59,96 +66,323 @@
 
     <br>
 
-    <!-- <table style="width: 100%;">
+    <table style="width: 100%;">
       <tr>
         <td>
-          <div id="iso_chart"></div>
+          <div id="stacked_bar_chart"></div>
         </td>
         <td>
-          <h2>Medals Breakdown of 5 Chosen Countries</h2>
-          <p> text highlighting the main/interesiting findings. </p>
+          <h3>Medal Breakdown for the Top 8 Countries in 2020 Tokyo Olympics</h3>
+            <p> The United States won more <b style="color: #969696;">Silver</b> medals than <b style="color: #9F8F5E;">Gold</b> and <b style="color: #996B4F;">Bronze</b> medals in the 2020 Tokyo Olympics. Most of the <b style="color: #969696;">Silver</b> medals 
+              are from the Swimming and Athletics events. <br>
+              <br>
+              On the other hand, China has won more <b style="color: #9F8F5E;">Gold</b> medals than <b style="color: #969696;">Silver</b> and <b style="color: #996B4F;">Bronze</b> medals. The events that contributed the most to the count
+              are Diving and Weightlifting.
+            </p>
         </td>
+      
       </tr>
     </table>
 
-    <br> -->
+        <h2>PERFORMANCE BREAKDOWN FOR CHOSEN COUNTRIES</h2>
 
-    <table style="width:100%">
-      <tr>
-        <td>
-          <div class="pure-g">
-            <h2> Graph 4: </h2>
-            <div id="us_chart"></div>
-          </div>
-        </td>
-        <td>
-          <div class="pure-g">
-            <h2> Graph 5: </h2>
-            <div id="china_chart"></div>
-          </div>
-        </td>
-        </tr>
-        <tr>
-        <td>
-          <div class="pure-g">
-            <h2> Graph 6: </h2>
-            <div id="france_chart"></div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div class="pure-g">
-            <h2> Graph 7: </h2>
-            <div id="japan_chart"></div>
-          </div>
-        </td>
-        <td>
-          <div class="pure-g">
-            <h2> Graph 8: </h2>
-            <div id="aus_chart"></div>
-          </div>
-        </td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-  </div>
+        <div class="button-container">
+          <button class="button" id="showAusRadar">AUSTRALIA</button>
+          <button class="button" id="showChinaRadar">CHINA</button>
+          <button class="button" id="showFranceRadar">FRANCE</button>
+          <button class="button" id="showJapanRadar">JAPAN</button>
+          <button class="button" id="showUsRadar">UNITED STATES</button>
+        </div>
+
+        <!--Australia's Dropdown Description-->
+        <div id="aus_description">
+          <table>   
+            <h3 id=button-heading> Australia's Performance According to Sport Types</h3>       
+            <tr>
+              <td><div id="aus_radarChart"></div></td>
+              <td>
+                <p id="button-text">Australia has always performed well in the <b>Water Sports</b> category especially Swimming.
+                Other than that, they also thrive in Canoe, Sailing and Rowing.<br>
+                <br>
+                In <b>2016</b>, the Aussies has done exceptionally well in <b>Archery and Modern Pentathlon</b>, which is categories under Multi-Sports.
+                Chloe Esposito, the woman in the first picture on the right, has won <b style="color: #9F8F5E;">Gold</b> medal in the Women Modern Pentathlon event. <br>
+                <br>
+                Australia has gotten a <b style="color: #996B4F;">Bronze</b> medal in the <b>Men Boxing</b> event in the <b>2020 Tokyo Olympics</b>
+                alongside with a <b style="color: #969696;">Silver</b> and a <b style="color: #996B4F;">Bronze</b> medal in <b>Equestrian</b> events. <br>
+                <br>
+                More information about the Aussies performance can be found <a href="https://en.wikipedia.org/wiki/Australia_at_the_2020_Summer_Olympics">here</a>.
+              </p></td>
+              <td>
+                <img id="button-pic" src="img/chloe_esposito.jpg" alt="Chloe Esposito winning Gold Medal"> <p id="reference">Image from: <a href="https://modernpentathlon.org.au/project/chloe-esposito-2016-rio-olympic-champion">modernpentathlon.org.au</a></p>
+                <img id="button-pic" src="img/harry_garside.jpeg"  alt="Harry Garside winning Bronze Medal"> <p id="reference">Image from: <a href="https://www.foxsports.com.au/boxing/boxing-news-2021-harry-garside-tokyo-olympics-medals-andrew-moloney-australia-andy-cruz-hotel-quarantine/news-story/ef030a0139f65515eb395432375d5eba">foxsports.com.au</a> </p>
+                <img id="button-pic" src="img/australia_equestrian.jpg" alt="Andrew Hoy winning Bronze Medal"> <p id="reference">Image from:  <a href="https://www.dailymail.co.uk/news/article-9852509/Tokyo-Olympics-Equestrian-Andrew-Hoy-Australias-oldest-medallist-aged-62.html">dailymail.co.uk</a></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!--China's Dropdown Description-->
+        <div id="china_description">
+          <table>   
+            <h3 id=button-heading>China's Performance According to Sport Types</h3>       
+            <tr>
+              <td><div id="china_radarChart"></div></td>
+              <td>
+                <p id="button-text"> China has alwyas been known for their skills in <b>Badminton and Table Tennis</b>, which is why they are thriving in the 
+                  Racket Sports catergory in <b>2016 and 2020</b>'s Olympics. Some of their famous Badminton players include Lin Dan and Chen Long. As for 
+                  Table Tennis, Ma Long is very well known as well. <br>
+                  <br>
+                  Besides Racket Sports, China also does well in the <b>Gymnastics and Shooting Sports</b> categories. China has won 11 medals for the Shooting
+                  aspect in the <b>2020 Tokyo Olympics</b>.<br>
+                  <br>
+                  China also performed exceptionally well in the <b>Weightlifting and Water Sports</b> area, especially Diving. Just looking at the statistics for 
+                  Diving, China has won 7 <b style="color: #9F8F5E;">Golds</b> and 5 <b style="color: #969696;">Silvers</b>. <br>
+                  <br>
+                  More information about the Chinese's performance can be found <a href="https://en.wikipedia.org/wiki/China_at_the_2020_Summer_Olympics">here</a>.
+              </p></td>
+              <td>
+                <img id="button-pic" src="img/chen_long.jpg" alt="Chen Long at 2020 Tokyo Olympics"> <p id="reference">Image from: <a href="http://www.chinadaily.com.cn/a/202108/01/WS610659afa310efa1bd665c99.html">chinadaily.com.cn</a></p>
+                <img id="button-pic" src="img/ma_long.jpg"  alt="Ma Long winning Gold Medals got Table Tennis Men Singles"> <p id="reference">Image from: <a href="https://www.nippon.com/en/news/reu20210730KBN2F01TT/">nippon.com</a> </p>
+                <img id="button-pic" src="img/yang_qian.jpg" alt="Yang Qian at 2020 Tokyo Olympics"> <p id="reference">Image from: <a href="https://www.insidethegames.biz/articles/1110687/shooting-first-gold-tokyo-2020-china">insidethegames.biz</a> </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!--France's Dropdown Description-->
+        <div id="france_description">
+          <table>   
+            <h3 id=button-heading>France's Performance According to Sport Types</h3>       
+            <tr>
+              <td><div id="france_radarChart"></div></td>
+              <td>
+                <p id="button-text"> In 2016, France has performed well in <b>Equestrian</b> as they have won 2 <b style="color: #9F8F5E;">Golds</b> in the Team Open events. As for 
+                  Individual event, Astier Nicolas has won a <b style="color: #969696;">Silver</b> medal for the Open Equestrian Eventing.<br>
+                  <br>
+                  As for <b>2020 Tokyo Olympics</b>, France has thrived in <b>Judo</b>, categories under Combat Sports, as the Women's team contributed 5 medals 
+                  to the team and the Men won 2 medals. Amongst the five medals from the Women's division, there was one <b style="color: #9F8F5E;">Gold</b> won by Clarisse Agbegnenou.<br>
+                  <br>
+                  It is also worth highlighting that both the Men and Women <b>Basketball</b> team has won medals for the country.<br>
+                  <br>
+                  More information about the French's performance can be found <a href="https://en.wikipedia.org/wiki/France_at_the_2020_Summer_Olympics">here</a>.
+              </p></td>
+              <td>
+                <img id="button-pic" src="img/astier_nicolas.jpg" alt="Astier Nicolas at 2016 Olympics"> <p id="reference">Image from: <a href="https://www.an-eventful-life.com.au/eventing-news/astier-nicolas-rio-2016-saddle-treasure">an-eventful-life.com.au</a> </p>
+                <img id="button-pic" src="img/clarisse_agbegnenou.jpg"  alt="Clasrisse Agbegnenou at 2020 Olympics"> <p id="reference">Image from: <a href="https://www.insidethegames.biz/articles/1110839/judo-tokyo-2020-agbegnenou-nagase">insidethegames.biz</a></p>
+                <img id="button-pic" src="img/french_basketball.jpg" alt="French Men Basketball Team at 2020 Olympics"> <p id="reference">Image from: <a href="https://www.insidethegames.biz/articles/1112284/basketball-france-collet">inssidethegames.biz</a> </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!--Japan's Dropdown Description-->
+        <div id="japan_description">
+          <table>   
+            <h3 id=button-heading>Japan's Performance According to Sport Types</h3>       
+            <tr>
+              <td><div id="japan_radarChart"></div></td>
+              <td>
+                <p id="button-text"> As seen in the left chart, the Japanese has performed very well in the <b>2020 Tokyo Olympics</b> partly because
+                  they are the host. <br>
+                  <br>
+                  Japan has performed exceptionally well in the <b>Action Sports</b> category in the 2020 Olympics as they have won 3 <b style="color: #9F8F5E;">Golds</b> for the Skateboarding
+                  events. Out of the 5 medals from the Skateboarding events, the Women's team has contributed 4 pieces of medals, 2 <b style="color: #9F8F5E;">Golds</b> 1 <b style="color: #969696;">Silver</b>  and 1 <b style="color: #996B4F;">Bronze</b>. <br>
+                  <br>
+                  The Japanese are also known for their <b>Combat Sports</b> such as Judo and Wrestling. It is obvious that they have been consistent with their
+                  performance for the two sport disciplines. <br>
+                  <br>
+                  More information about the Japanese's performance can be found <a href="https://en.wikipedia.org/wiki/Japan_at_the_2020_Summer_Olympics">here</a>.
+              </p></td>
+              <td>
+                <img id="button-pic" src="img/momiji_nishiya.jpg" alt="Momoji Nishiya at 2020 Tokyo Olympics"> <p id="reference">Image from: <a href="http://www.xinhuanet.com/english/2021-07/26/c_1310086938.htm">xinhuanet.com</a></p>
+                <img id="button-pic" src="img/susaki_yui.jpg"  alt="Susaki Yui at 2020 Tokyo Olumpics"> <p id="reference">Image from: <a href="http://www.xinhuanet.com/english/2021-08/07/c_1310114401.htm">xinhuanet.com</a> </p>
+                <img id="button-pic" src="img/japanese_judo.jpeg" alt="Japanese Judo team winning Silver at 2020 Tokyo Olympics"> <p id="reference">Image from: <a href="https://apnews.com/article/2020-tokyo-olympics-judo-japan-241f7ad1751194aedd3955f71ad9e111">apnews.com</a></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!--US's Dropdown Description-->
+        <div id="us_description">
+          <table>   
+            <h3 id=button-heading>United States's Performance According to Sport Types</h3>       
+            <tr>
+              <td><div id="us_radarChart"></div></td>
+              <td>
+                <p id="button-text"> The Americans are very consistent in their performance when it comes to the <b>Athletics</b> events as they have won
+                  32 and 26 medals in the <b>2016 and 2020</b> Olympics respectively. <br>
+                  <br>
+                  The Men and Women Basketball team have both won <b style="color: #9F8F5E;">Gold</b> in the Basketball events for <b>two consecutive</b> Olympics games. <br>
+                  <br>
+                  In 2020 Tokyp Olympics, the Americans have won <b>first place</b> in the Men and Women Individual Golf events.<br>
+                  <br>
+                  The 2016 Olympics <b style="color: #9F8F5E;">gold</b> medalist for Men's Heavyweight Freestyle Wrestling, Kyle Synder, has competed in the same event in 2020
+                  Tokyo Olympics and won a <b style="color: #969696;">Silver</b> medal for the country. <br>
+                  <br>
+                  More information about the American's performance can be found <a href="https://en.wikipedia.org/wiki/United_States_at_the_2020_Summer_Olympics">here</a>.
+              </p></td>
+              <td>
+                <img id="button-pic" src="img/xander_schauffele.jpeg" alt="Xander Schauffele at 2020 Tokyo Olympics"> <p id="reference">Image from: <a href="https://www.wsj.com/articles/xander-schauffele-olympic-golf-gold-11627815758">wsj.com</a> </p>
+                <img id="button-pic" src="img/usa_basketball.jpg"  alt="USA Men Basketball Team at 2020 Tokyp Olympics"> <p id="reference">Image from: <a href=http://www.xinhuanet.com/english/2021-08/08/c_1310115406.htm">xinhuanet.com</a> </p>
+                <img id="button-pic" src="img/kyle_synder.jpg" alt="Kyle Synder at 2016 Olympics"> <p id="reference">Image from: <a href="https://www.news18.com/news/olympics/rio-2016-usas-kyle-snyder-wins-mens-freestyle-wrestling-97kg-gold-1283962.html">news18.com</a> </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+      </div>
 
 
-  <script type="text/javascript">
-    var map = "js/totalMedalsByCountry.json";
-    vegaEmbed('#choropleth_map', map).then(function (result) {
-    }).catch(console.error);
+      <script type="text/javascript">
+        var ausChart = "js/ausMedalsBreakdown.json";
+        var usChart = "js/usMedalsBreakdown.json";
+        var chinaChart = "js/chinaMedalsBreakdown.json";
+        var japanChart = "js/japanMedalsBreakdown.json";
+        var franceChart = "js/franceMedalsBreakdown.json";
 
-    var bumpChart = "js/8CountriesWithMostMedalsIn5RecentOlympics.json";
-    vegaEmbed('#bump_chart', bumpChart).then(function (result) {
-    }).catch(console.error);
 
-    var isoChart = "js/medalsBreakdownForChosenCountries.json";
-    vegaEmbed('#iso_chart', isoChart).then(function (result) {
-    }).catch(console.error);
+        var map = "js/totalMedalsByCountry.json";
+        vegaEmbed('#choropleth_map', map).then(function (result) {
+        }).catch(console.error);
 
-    var usChart = "js/usMedalsBreakdown.json";
-    vegaEmbed('#us_chart', usChart).then(function (result) {
-    }).catch(console.error);
+        var bumpChart = "js/8CountriesWithMostMedalsIn5RecentOlympics.json";
+        vegaEmbed('#bump_chart', bumpChart).then(function (result) {
+        }).catch(console.error);
 
-    var chinaChart = "js/chinaMedalsBreakdown.json";
-    vegaEmbed('#china_chart', chinaChart).then(function (result) {
-    }).catch(console.error);
+        var isoChart = "js/medalsBreakdownForChosenCountries.json";
+        vegaEmbed('#iso_chart', isoChart).then(function (result) {
+        }).catch(console.error);
 
-    var franceChart = "js/franceMedalsBreakdown.json";
-    vegaEmbed('#france_chart', franceChart).then(function (result) {
-    }).catch(console.error);
+        var stackedChart= "js/top8CountriesMedalBreakdown.json";
+        vegaEmbed('#stacked_bar_chart', stackedChart).then(function(result){
+        }).catch(console.error);
 
-    var japanChart = "js/japanMedalsBreakdown.json";
-    vegaEmbed('#japan_chart', japanChart).then(function (result) {
-    }).catch(console.error);
+        function showRadar(containerId, spec) {
+          vegaEmbed(`#${containerId}`, spec)
+            .then((result) => {
+              // Successfully embedded the chart
+            })
+            .catch(console.error);
+        }
 
-    var ausChart = "js/ausMedalsBreakdown.json";
-    vegaEmbed('#aus_chart', ausChart).then(function (result) {
-    }).catch(console.error);
-  </script>
+        //button listener for Australia's button
+        document.getElementById("showAusRadar").addEventListener("click", function () {
+          if (document.getElementById("aus_radarChart").style.display === "none") {
+            // If the Australia chart is hidden, show it
+            showRadar("aus_radarChart", ausChart);
+            document.getElementById("aus_radarChart").style.display = "block";
+            document.getElementById("aus_description").style.display = "block";
+            document.getElementById("china_radarChart").style.display = "none";
+            document.getElementById("china_description").style.display = "none";
+            document.getElementById("japan_radarChart").style.display = "none";
+            document.getElementById("japan_description").style.display = "none";
+            document.getElementById("france_radarChart").style.display = "none";
+            document.getElementById("france_description").style.display = "none";
+            document.getElementById("us_radarChart").style.display = "none";
+            document.getElementById("us_description").style.display = "none";
+          } else {
+            // If the Australia chart is visible, hide it
+            document.getElementById("aus_radarChart").style.display = "none";
+            document.getElementById("aus_description").style.display = "none";
+
+          }
+        });
+
+        //button listener for China's button
+        document.getElementById("showChinaRadar").addEventListener("click", function () {
+          if (document.getElementById("china_radarChart").style.display === "none") {
+            // If the China chart is hidden, show it
+            showRadar("china_radarChart", chinaChart);
+            document.getElementById("china_radarChart").style.display = "block";
+            document.getElementById("china_description").style.display = "block";
+            document.getElementById("aus_radarChart").style.display = "none";
+            document.getElementById("aus_description").style.display = "none";
+            document.getElementById("japan_radarChart").style.display = "none";
+            document.getElementById("japan_description").style.display = "none";
+            document.getElementById("france_radarChart").style.display = "none";
+            document.getElementById("france_description").style.display = "none";
+            document.getElementById("us_radarChart").style.display = "none";
+            document.getElementById("us_description").style.display = "none";
+          } else {
+            // If the China chart is visible, hide it
+            document.getElementById("china_radarChart").style.display = "none";
+            document.getElementById("china_description").style.display = "none";
+
+          }
+        });
+
+        //button listener for France's button
+        document.getElementById("showFranceRadar").addEventListener("click", function () {
+          if (document.getElementById("france_radarChart").style.display === "none") {
+            // If the France chart is hidden, show it
+            showRadar("france_radarChart", franceChart);
+            document.getElementById("france_radarChart").style.display = "block";
+            document.getElementById("france_description").style.display = "block";
+            document.getElementById("aus_radarChart").style.display = "none";
+            document.getElementById("aus_description").style.display = "none";
+            document.getElementById("japan_radarChart").style.display = "none";
+            document.getElementById("japan_description").style.display = "none";
+            document.getElementById("china_radarChart").style.display = "none";
+            document.getElementById("china_description").style.display = "none";
+            document.getElementById("us_radarChart").style.display = "none";
+            document.getElementById("us_description").style.display = "none";
+          } else {
+            // If the France chart is visible, hide it
+            document.getElementById("france_radarChart").style.display = "none";
+            document.getElementById("france_description").style.display = "none";
+          }
+        });
+
+        //button listener for Japan's button
+        document.getElementById("showJapanRadar").addEventListener("click", function () {
+          if (document.getElementById("japan_radarChart").style.display === "none") {
+            // If the Japan chart is hidden, show it
+            showRadar("japan_radarChart", japanChart);
+            document.getElementById("japan_radarChart").style.display = "block";
+            document.getElementById("japan_description").style.display = "block";
+            document.getElementById("aus_radarChart").style.display = "none";
+            document.getElementById("aus_description").style.display = "none";
+            document.getElementById("china_radarChart").style.display = "none";
+            document.getElementById("china_description").style.display = "none";
+            document.getElementById("france_radarChart").style.display = "none";
+            document.getElementById("france_description").style.display = "none";
+            document.getElementById("us_radarChart").style.display = "none";
+            document.getElementById("us_description").style.display = "none";
+          } else {
+            // If the Japan chart is visible, hide it
+            document.getElementById("japan_radarChart").style.display = "none";
+            document.getElementById("japan_description").style.display = "none";
+
+          }
+        });
+
+        //button listener for US's button
+        document.getElementById("showUsRadar").addEventListener("click", function () {
+          if (document.getElementById("us_radarChart").style.display === "none") {
+            // If the US chart is hidden, show it
+            showRadar("us_radarChart", usChart);
+            document.getElementById("us_radarChart").style.display = "block";
+            document.getElementById("us_description").style.display = "block";
+            document.getElementById("aus_radarChart").style.display = "none";
+            document.getElementById("aus_description").style.display = "none";
+            document.getElementById("japan_radarChart").style.display = "none";
+            document.getElementById("japan_description").style.display = "none";
+            document.getElementById("france_radarChart").style.display = "none";
+            document.getElementById("france_description").style.display = "none";
+            document.getElementById("china_radarChart").style.display = "none";
+            document.getElementById("china_description").style.display = "none";
+          } else {
+            // If the US chart is visible, hide it
+            document.getElementById("us_radarChart").style.display = "none";
+            document.getElementById("us_description").style.display = "none";
+          }
+        });
+
+        
+
+
+
+      </script>
 
 
 </body>
