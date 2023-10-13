@@ -1,0 +1,46 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/acho0068/fit3179assignment2/main/dataset/clean/top8_countries_medals_breakdown.csv"},
+    "height":300,
+    "width":600,
+   "background": "#ffe4c4",
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "field": "Country",
+        "type": "nominal",
+        "title": null,
+        "sort":null,
+        "axis":{"ticks": false, "domain": false,"offset": 10}
+      },
+      "x": {
+       "aggregate": "count",
+        "type": "quantitative",
+        "axis":{"ticks": false, "domain": false, "labels": false, "title":null}
+      },
+      "color": {
+        "field": "Medals",
+        "type": "ordinal",
+        "scale": {
+          "domain": ["Gold", "Silver", "Bronze"],
+          "range": ["#9F8F5E", " #969696", "#996B4F"]
+        },
+        "title": "Medal Types",
+        "legend":{ "orient": "bottom-right", "offset":70}   
+      },
+      "tooltip":[
+        {"field": "Country", "title": "Country"},
+        {"field": "Medals", "title": "Medals"},
+        {"field": "Count", "title": "Number of Medals" }
+      ]
+    },
+     "config": {
+      "axis": {
+        "grid": false 
+      },
+      "view": {
+        "stroke": "transparent"
+      }
+    }
+  }
+  
