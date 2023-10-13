@@ -2,21 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "width": 450,
     "height": 350,
-    "padding": 100,
+    "padding":75,
     "autosize": {"type": "none", "contains": "padding"},
-    "title": {
-      "text": "Japan Performance by Sport Types",
-      "subtitle": "2016 & 2020 Olympics",
-      "color": "navy",
-      "fontSize": 22,
-      "align": "center",
-      "dy": -10,
-      "dx": -20,
-      "baseline": "middle",
-      "subtitleColor": "navy",
-      "subtitleFontSize": 18,
-      "subtitlePadding": 5
-    },
     "signals": [{"name": "radius", "update": "width / 2.65"}],
     "data": [
       {
@@ -52,7 +39,7 @@
         "name": "color",
         "type": "ordinal",
         "domain": {"data": "us_data", "field": "Year"},
-        "range": {"scheme": "category10"}
+        "range": ["#F0282D", "#0078D0"]
       }
     ],
     "encode": {"enter": {"x": {"signal": "radius"}, "y": {"signal": "radius"}}},
@@ -158,6 +145,6 @@
       {"field": "Normalised_Win", "type": "quantitative"}
     ],
     "legends": [
-      {"fill": "color", "title": "Year", "type": "symbol", "orient":"bottom-right", "offset":30}
+      {"fill": "color", "title": "Year", "type": "symbol", "orient":"bottom-right", "offset":80}
     ]
   }
