@@ -1,19 +1,27 @@
 h1{
-    font-family: 'Luckiest Guy', Roboto;
-    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 55px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0; 
-    padding-top: 25px;
-
 }
 
 h2{
-    font-family: 'Luckiest Guy', Roboto;
-    font-size: 25px;
-    padding-top: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 43px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,16 +29,23 @@ h2{
 }
 
 p{
-    font-family: 'Gabarito', Roboto;
-    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 100px;
+}
+
+#button-heading{
+    padding-top:30px;
 }
 
 .page {
-    width: 1050px;
+    width: auto;
     background-color: white;
     margin: auto;
-    padding: 50px;
-    padding-top: 35px;
+    padding:100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
 }
 
 #choropleth_map {
@@ -47,23 +62,19 @@ p{
     right: 100px;
 }
 
-#iso_chart{
-    top:10px;
+#stacked_bar_chart{
+    top:45px;
     bottom: 100px;
     left: 10px;
     right: 100px;
 }
 
-.description h2,h1 {
-    margin-top: 0px;
-}
-
-.description-right {
-    padding-left: 20px;
-}
-
-.description-left {
-    padding-right: 20px;
+#aus_radarChart, #china_radarChart, #france_radarChart, #japan_radarChart, #us_radarChart{
+    top:-40px;
+    bottom: 30px;
+    left: 50px;
+    right: 100px;
+    display: none;
 }
 
 .pure-g
@@ -74,7 +85,7 @@ p{
     justify-content: center;
     align-items: center;
     margin: 0; 
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .graph-container 
@@ -101,3 +112,53 @@ p{
     margin-left: 15px; 
 }
 
+#aus_description, #china_description, #france_description, #japan_description, #us_description{
+    display: none;
+    background-color:#E5E5E5;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+  
+.button {
+    background-color: bisque;
+    color: black;
+    border: 3px solid #FFB114;
+    font-family: 'Oswald', sans-serif;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 15px;
+}
+
+.button:hover{
+    background-color:  #FFB114;
+    color:black;
+}
+
+#button-pic{
+    align-items: center;
+    padding-left: 70px;
+    width:175px;
+    height:100px;
+}
+
+#button-text{
+    text-align: justify;
+    margin-top: -20px;
+    width: 400px;
+    padding-left: 10px;
+}
+
+
+#reference{
+    margin-top: 0cm;
+    font-size: 10px;
+    padding-left: 70px;
+}
