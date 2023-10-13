@@ -2,6 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.1.0.json",
   "width": 500,
   "height": 300,
+  "background": "#ffe4c4",
   "data": {
     "url": "https://raw.githubusercontent.com/acho0068/fit3179assignment2/main/dataset/clean/top8_in_recent_five_years.csv",
     "format": {"type": "csv"}
@@ -80,10 +81,7 @@
       "type": "ordinal",
       "axis": {"labels":true,"grid": false, "domain": false, "offset": -10}
     },
-     "color": {
-    "field": "Country",
-    "type": "nominal"
-    },
+    "color": {"field": "Country", "type": "nominal", "scale":{"range": ["#969696","#FFB114","#E67324","#FF555F","#F0282D","#980F30","#00B4EB","#0078D0","#9F8F5E","#996B4F"]}},
     "tooltip": [
       {"field": "Year", "title":"Olympic Year", "type": "nominal"},
       {"field": "Country", "type": "nominal"},
