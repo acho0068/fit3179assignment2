@@ -67,6 +67,7 @@ p{
     bottom: 100px;
     left: 10px;
     right: 100px;
+    padding-right: 10px;
 }
 
 #aus_radarChart, #china_radarChart, #france_radarChart, #japan_radarChart, #us_radarChart{
@@ -74,6 +75,8 @@ p{
     bottom: 30px;
     left: 50px;
     right: 100px;
+    padding-right: 70px;
+    padding-left: 50px;
     display: none;
 }
 
@@ -144,7 +147,6 @@ p{
 
 #button-pic{
     align-items: center;
-    padding-left: 70px;
     padding-right: 70px;
     width:175px;
     height:100px;
@@ -152,13 +154,13 @@ p{
 
 #button-text{
     text-align: justify;
+    align-items: center;
     margin-top: -20px;
-    padding-left: 10px;
+    padding-right: 70px;
 }
 
 
 #reference{
     margin-top: 0cm;
     font-size: 10px;
-    padding-left: 70px;
 }
