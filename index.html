@@ -123,7 +123,7 @@
 
         <!--China's Dropdown Description-->
         <div id="china_description">
-          <table >   
+          <table style="width: 100%;" >   
             <h3 id=button-heading>China's Performance According to Sport Types</h3>       
             <tr>
               <td><div id="china_radarChart"></div></td>
@@ -151,7 +151,7 @@
 
         <!--France's Dropdown Description-->
         <div id="france_description">
-          <table>   
+          <table style="width: 100%;">   
             <h3 id=button-heading>France's Performance According to Sport Types</h3>       
             <tr>
               <td><div id="france_radarChart"></div></td>
@@ -177,7 +177,7 @@
 
         <!--Japan's Dropdown Description-->
         <div id="japan_description">
-          <table>   
+          <table style="width: 100%;">   
             <h3 id=button-heading>Japan's Performance According to Sport Types</h3>       
             <tr>
               <td><div id="japan_radarChart"></div></td>
@@ -204,7 +204,7 @@
 
         <!--US's Dropdown Description-->
         <div id="us_description">
-          <table>   
+          <table style="width: 100%;">   
             <h3 id=button-heading>United States's Performance According to Sport Types</h3>       
             <tr>
               <td><div id="us_radarChart"></div></td>
@@ -242,23 +242,23 @@
 
 
         var map = "js/totalMedalsByCountry.json";
-        vegaEmbed('#choropleth_map', map).then(function (result) {
+        vegaEmbed('#choropleth_map', map,{"actions": false}).then(function (result) {
         }).catch(console.error);
 
         var bumpChart = "js/8CountriesWithMostMedalsIn5RecentOlympics.json";
-        vegaEmbed('#bump_chart', bumpChart).then(function (result) {
+        vegaEmbed('#bump_chart', bumpChart,{"actions": false}).then(function (result) {
         }).catch(console.error);
 
         var isoChart = "js/medalsBreakdownForChosenCountries.json";
-        vegaEmbed('#iso_chart', isoChart).then(function (result) {
+        vegaEmbed('#iso_chart', isoChart,{"actions": false}).then(function (result) {
         }).catch(console.error);
 
         var stackedChart= "js/top8CountriesMedalBreakdown.json";
-        vegaEmbed('#stacked_bar_chart', stackedChart).then(function(result){
+        vegaEmbed('#stacked_bar_chart', stackedChart,{"actions": false}).then(function(result){
         }).catch(console.error);
 
         function showRadar(containerId, spec) {
-          vegaEmbed(`#${containerId}`, spec)
+          vegaEmbed(`#${containerId}`, spec,{"actions": false})
             .then((result) => {
               // Successfully embedded the chart
             })
