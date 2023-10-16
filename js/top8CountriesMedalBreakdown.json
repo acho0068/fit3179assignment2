@@ -4,36 +4,87 @@
     "height":300,
     "width":600,
    "background": "#ffe4c4",
-    "mark": "bar",
+   "layer":[
+    {
+       "mark": "bar",
     "encoding": {
       "y": {
         "field": "Country",
         "type": "nominal",
         "title": null,
-        "sort":null,
+        "sort": ["Gold", "Silver", "Bronze"],
         "axis":{"ticks": false, "domain": false,"offset": 10}
       },
       "x": {
        "aggregate": "count",
         "type": "quantitative",
-        "axis":{"ticks": false, "domain": false, "labels": false, "title":null}
-      },
+        "axis":{"ticks": false, "domain": false, "labels": false, "title":null, "orient":"top"}      
+        },
       "color": {
         "field": "Medals",
         "type": "ordinal",
         "scale": {
-          "domain": ["Gold", "Silver", "Bronze"],
           "range": ["#9F8F5E", " #969696", "#996B4F"]
         },
         "title": "Medal Types",
-        "legend":{ "orient": "bottom-right", "offset":70}   
-      },
+        "legend":{ "orient": "bottom-right", "offset":70},
+        "sort":null     },
       "tooltip":[
         {"field": "Country", "title": "Country"},
         {"field": "Medals", "title": "Medals"},
         {"field": "Count", "title": "Number of Medals" }
       ]
-    },
+    }
+  }, 
+  {"mark":"text", "encoding":{
+    "x":{"value":580},
+    "y": { "value": 20 }, 
+         "text": { "value": 113},
+        "color": { "value": "black" }
+  }},
+  {"mark":"text", "encoding":{
+    "x":{"value":455},
+    "y": { "value": 58 }, 
+         "text": { "value": 88},
+        "color": { "value": "black" }
+  }},
+    {"mark":"text", "encoding":{
+    "x":{"value":370},
+    "y": { "value": 95 }, 
+         "text": { "value": 71},
+        "color": { "value": "black" }
+  }},
+    {"mark":"text", "encoding":{
+    "x":{"value":340},
+    "y": { "value": 133 }, 
+         "text": { "value": 64},
+        "color": { "value": "black" }
+  }},
+    {"mark":"text", "encoding":{
+    "x":{"value":305},
+    "y": { "value": 170 }, 
+         "text": { "value": 58},
+        "color": { "value": "black" }
+  }},
+    {"mark":"text", "encoding":{
+    "x":{"value":245},
+    "y": { "value": 208 }, 
+         "text": { "value": 46},
+        "color": { "value": "black" }
+  }},
+    {"mark":"text", "encoding":{
+    "x":{"value":215},
+    "y": { "value": 245 }, 
+         "text": { "value": 40},
+        "color": { "value": "black" }
+  }},
+    {"mark":"text", "encoding":{
+    "x":{"value":200},
+    "y": { "value": 283 }, 
+         "text": { "value": 29},
+        "color": { "value": "black" }
+  }}
+  ],
      "config": {
       "axis": {
         "grid": false 
