@@ -30,8 +30,10 @@ h3{
 
 p{
     font-family: 'Barlow', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 100px;
+    padding-right: 70px;
+    padding-left: 70px;
 }
 
 #button-heading{
@@ -156,7 +158,8 @@ p{
     text-align: justify;
     align-items: center;
     margin-top: -20px;
-    padding-right: 70px;
+    font-size: 18px;
+    padding-left: 40px;
 }
 
 
